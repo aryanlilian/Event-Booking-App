@@ -1,0 +1,27 @@
+{
+  "name": "event-booking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanlilian/Event-Booking-App.git"
+  },
+  "author": "aryanlilian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryanlilian/Event-Booking-App/issues"
+  },
+  "homepage": "https://github.com/aryanlilian/Event-Booking-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
