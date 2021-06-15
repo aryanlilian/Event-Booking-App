@@ -5,11 +5,13 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const graphqlSchema = require('./graphql/schema/index');
 const graphqlResolvers = require('./graphql/resolvers/index');
+const auth = require('./middlewares/auth');
 const app = express();
 
 dotenv.config();
 
 app.use(bodyParser.json());
+app.use(auth);
 app.use(
     '/graphql',
     graphqlHTTP({
