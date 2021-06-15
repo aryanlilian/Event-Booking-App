@@ -1,0 +1,1 @@
+module.exports = transformDate = date => new Date(date).toISOString();

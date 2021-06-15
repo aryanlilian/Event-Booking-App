@@ -7,8 +7,6 @@ const graphqlSchema = require('./graphql/schema/index');
 const graphqlResolvers = require('./graphql/resolvers/index');
 const app = express();
 
-const events = [];
-
 dotenv.config();
 
 app.use(bodyParser.json());
